@@ -101,6 +101,6 @@ def minimize(costFunc, x0, bounds, num_particles, maxiter, verbose=False):
     print(f'   > {pos_best_g}')
     print(f'   > {err_best_g}\n')
 
-    pass
+    return pos_best_g
 
 #--- END ----------------------------------------------------------------------+
